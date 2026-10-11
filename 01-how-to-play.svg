@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1120 330" role="img" aria-labelledby="title desc">
+  <title id="title">How to play Roost</title>
+  <desc id="desc">Four connected steps: read a neighbour clue, mark a suspected bat, choose probe depth, then interpret an empty, photo, or wake result.</desc>
+  <rect width="1120" height="330" rx="24" fill="#f4faf5"/>
+  <g font-family="Arial,sans-serif" fill="#244c40">
+    <g transform="translate(28 28)">
+      <rect width="250" height="274" rx="18" fill="#fff" stroke="#cfe3d5" stroke-width="2"/>
+      <circle cx="36" cy="38" r="20" fill="#dcefe2"/><text x="36" y="45" text-anchor="middle" font-size="20" font-weight="700">1</text>
+      <text x="68" y="44" font-family="Georgia,serif" font-size="23">Read a clue</text>
+      <g transform="translate(48 83)">
+        <rect x="0" y="0" width="48" height="48" rx="8" fill="#e1f1e5" stroke="#6eaa8d"/>
+        <rect x="56" y="0" width="48" height="48" rx="8" fill="#e1f1e5" stroke="#6eaa8d"/>
+        <rect x="112" y="0" width="48" height="48" rx="8" fill="#fff0d4" stroke="#d3a258" stroke-width="2"/>
+        <rect x="0" y="56" width="48" height="48" rx="8" fill="#e1f1e5" stroke="#6eaa8d"/>
+        <rect x="56" y="56" width="48" height="48" rx="8" fill="#fff" stroke="#6eaa8d"/>
+        <rect x="112" y="56" width="48" height="48" rx="8" fill="#fff" stroke="#6eaa8d"/>
+        <rect x="0" y="112" width="48" height="48" rx="8" fill="#e1f1e5" stroke="#6eaa8d"/>
+        <rect x="56" y="112" width="48" height="48" rx="8" fill="#fff" stroke="#6eaa8d"/>
+        <rect x="112" y="112" width="48" height="48" rx="8" fill="#fff" stroke="#6eaa8d"/>
+        <text x="80" y="89" text-anchor="middle" font-size="28" font-weight="700">1</text>
+        <path d="M129 83q8-14 16 0q8-14 16 0l-3 8h-27z" fill="#345a4c"/>
+      </g>
+      <text x="22" y="270" font-size="15" fill="#5b7469">Count bats in 8 neighbours.</text>
+    </g>
+    <path d="M286 165h31l-10-10m10 10-10 10" fill="none" stroke="#91b9a1" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+    <g transform="translate(320 28)">
+      <rect width="250" height="274" rx="18" fill="#fff" stroke="#cfe3d5" stroke-width="2"/>
+      <circle cx="36" cy="38" r="20" fill="#ffeed2"/><text x="36" y="45" text-anchor="middle" font-size="20" font-weight="700">2</text>
+      <text x="68" y="44" font-family="Georgia,serif" font-size="23">Mark a guess</text>
+      <rect x="75" y="90" width="100" height="100" rx="15" fill="#fff8e9" stroke="#d6a957" stroke-width="3"/>
+      <path d="M124 115v51m0-51 26 9-26 10" fill="none" stroke="#ad7026" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+      <text x="22" y="270" font-size="15" fill="#5b7469">Free note. Not proof.</text>
+    </g>
+    <path d="M578 165h31l-10-10m10 10-10 10" fill="none" stroke="#91b9a1" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+    <g transform="translate(612 28)">
+      <rect width="250" height="274" rx="18" fill="#fff" stroke="#cfe3d5" stroke-width="2"/>
+      <circle cx="36" cy="38" r="20" fill="#dcefe2"/><text x="36" y="45" text-anchor="middle" font-size="20" font-weight="700">3</text>
+      <text x="68" y="44" font-family="Georgia,serif" font-size="23">Choose depth</text>
+      <rect x="38" y="110" width="174" height="12" rx="6" fill="#dce9df"/>
+      <rect x="38" y="110" width="115" height="12" rx="6" fill="#579477"/>
+      <circle cx="153" cy="116" r="15" fill="#fff" stroke="#37765e" stroke-width="4"/>
+      <text x="38" y="162" font-size="16" font-weight="700">More cycles</text>
+      <text x="38" y="188" font-size="15" fill="#5b7469">more battery · lower wake risk</text>
+      <text x="22" y="270" font-size="15" fill="#5b7469">Odds never reveal occupancy.</text>
+    </g>
+    <path d="M870 165h31l-10-10m10 10-10 10" fill="none" stroke="#91b9a1" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+    <g transform="translate(904 28)">
+      <rect width="188" height="274" rx="18" fill="#fff" stroke="#cfe3d5" stroke-width="2"/>
+      <circle cx="36" cy="38" r="20" fill="#ffe5dc"/><text x="36" y="45" text-anchor="middle" font-size="20" font-weight="700">4</text>
+      <text x="68" y="44" font-family="Georgia,serif" font-size="23">Fire</text>
+      <circle cx="94" cy="116" r="49" fill="#f8fcf8" stroke="#b9d9c4" stroke-width="3"/>
+      <path d="M94 84v30l24 17" fill="none" stroke="#387c68" stroke-width="6" stroke-linecap="round"/>
+      <text x="94" y="194" text-anchor="middle" font-size="15" fill="#4f7063">Empty · Photo · Wake</text>
+      <text x="20" y="244" font-size="15" font-weight="700">Find them all</text>
+      <text x="20" y="269" font-size="14" fill="#5b7469">Keep one heart.</text>
+    </g>
+  </g>
+</svg>

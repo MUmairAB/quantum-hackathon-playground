@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 520" role="img" aria-labelledby="title desc">
+  <title id="title">Roost: Read the cave, choose your light</title>
+  <desc id="desc">A pale mint cave scene with a six-by-six clue grid, sleeping bats, and a warm two-path photon probe.</desc>
+  <defs>
+    <pattern id="grid" width="48" height="48" patternUnits="userSpaceOnUse">
+      <rect x="2" y="2" width="43" height="43" rx="9" fill="#f8fcf8" stroke="#bdd8c8" stroke-width="2"/>
+    </pattern>
+    <linearGradient id="cave" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#eaf7ef"/>
+      <stop offset="1" stop-color="#fff4dc"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="520" rx="28" fill="url(#cave)"/>
+  <path d="M0 416Q190 325 374 409T740 397T1200 385V520H0Z" fill="#d8eadb"/>
+  <path d="M0 471Q208 396 428 469T835 447T1200 461V520H0Z" fill="#c7dfce"/>
+  <path d="M697 0H1200V344Q1092 319 1022 355Q930 304 849 358Q773 324 697 365Z" fill="#edf4e9" opacity=".9"/>
+  <g transform="translate(736 74)">
+    <rect width="302" height="302" rx="20" fill="url(#grid)"/>
+    <rect x="50" y="50" width="43" height="43" rx="9" fill="#dcefe1"/>
+    <rect x="98" y="50" width="43" height="43" rx="9" fill="#dcefe1"/>
+    <rect x="50" y="98" width="43" height="43" rx="9" fill="#dcefe1"/>
+    <rect x="98" y="98" width="43" height="43" rx="9" fill="#dcefe1"/>
+    <rect x="146" y="98" width="43" height="43" rx="9" fill="#e2f2e5" stroke="#32836c" stroke-width="2"/>
+    <text x="167" y="128" text-anchor="middle" font-family="Georgia,serif" font-size="25" font-weight="700" fill="#235e50">1</text>
+    <rect x="194" y="146" width="43" height="43" rx="9" fill="#fff0d2" stroke="#cf9a43" stroke-width="3"/>
+    <path d="M207 168q7-12 14 0q7-12 14 0l-2 8h-24z" fill="#355c4f"/>
+    <circle cx="61" cy="68" r="4" fill="#688278"/><circle cx="108" cy="68" r="4" fill="#688278"/><circle cx="159" cy="68" r="4" fill="#688278"/>
+    <text x="151" y="327" text-anchor="middle" font-family="Arial,sans-serif" font-size="15" fill="#45665b">Clues count nearby bats</text>
+  </g>
+  <g transform="translate(72 113)">
+    <path d="M20 228C156 130 265 320 420 210" fill="none" stroke="#4b9c7e" stroke-width="6" stroke-linecap="round" stroke-dasharray="3 13"/>
+    <path d="M20 228C158 308 277 142 420 210" fill="none" stroke="#d89b3f" stroke-width="6" stroke-linecap="round" stroke-dasharray="3 13"/>
+    <circle cx="20" cy="228" r="19" fill="#fff" stroke="#387c68" stroke-width="5"/>
+    <circle cx="420" cy="210" r="19" fill="#fff" stroke="#c4822f" stroke-width="5"/>
+    <path d="M102 218q14-24 28 0q14-24 28 0l-5 13h-46z" fill="#345a4c"/>
+    <circle cx="262" cy="172" r="12" fill="#e8aa4f" stroke="#fff" stroke-width="5"/>
+    <circle cx="326" cy="247" r="9" fill="#66aa8a" stroke="#fff" stroke-width="4"/>
+    <text x="20" y="272" text-anchor="middle" font-family="Arial,sans-serif" font-size="15" fill="#45665b">HOME</text>
+    <text x="420" y="252" text-anchor="middle" font-family="Arial,sans-serif" font-size="15" fill="#45665b">DETECTOR</text>
+    <text x="183" y="360" text-anchor="middle" font-family="Georgia,serif" font-size="28" fill="#214f43">Light can reveal without touching</text>
+  </g>
+  <g transform="translate(1068 140)" fill="#345a4c">
+    <path d="M24 34q-14-28-24-3q-1-26 20-17q4-14 10 0q21-9 20 17q-10-25-24 3q-1 16-1 22h-2q0-6 1-22z"/>
+    <path d="M52 84q-11-22-20-3q-1-22 17-15q3-12 7 0q18-7 17 15q-9-19-20 3q-1 13-1 18h-2q0-5 2-18z" opacity=".78"/>
+    <path d="M3 146q-9-18-16-2q-1-18 14-12q2-10 5 0q15-6 14 12q-7-16-17 2q-1 10-1 15H0q0-5 3-15z" opacity=".62"/>
+  </g>
+  <text x="62" y="70" font-family="Georgia,serif" font-size="18" letter-spacing="0" fill="#638075">A QUANTUM-ZENO CAVE GAME</text>
+</svg>

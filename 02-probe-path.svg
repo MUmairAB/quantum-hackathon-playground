@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 300" role="img" aria-labelledby="title desc">
+  <title id="title">Two-path ideal probe</title>
+  <desc id="desc">A photon enters an interferometer, follows home and cell paths through repeated rotations, and reaches one of two detectors. A perfect absorber on the cell path can wake a bat.</desc>
+  <rect width="900" height="300" rx="24" fill="#f4faf5"/>
+  <g font-family="Arial,sans-serif" fill="#244c40">
+    <circle cx="86" cy="151" r="28" fill="#fff" stroke="#55967a" stroke-width="4"/>
+    <text x="86" y="157" text-anchor="middle" font-size="15" font-weight="700">LIGHT</text>
+    <path d="M115 151h53" stroke="#55967a" stroke-width="6" stroke-linecap="round"/>
+    <path d="M169 151l40-76h390M169 151l40 76h390" fill="none" stroke="#55967a" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M209 75h390M209 227h390" fill="none" stroke="#d5a34e" stroke-width="3" stroke-dasharray="3 11" stroke-linecap="round"/>
+    <g fill="#fff" stroke="#8eb8a0" stroke-width="3">
+      <circle cx="286" cy="75" r="11"/><circle cx="376" cy="75" r="11"/><circle cx="466" cy="75" r="11"/><circle cx="556" cy="75" r="11"/>
+      <circle cx="286" cy="227" r="11"/><circle cx="376" cy="227" r="11"/><circle cx="466" cy="227" r="11"/><circle cx="556" cy="227" r="11"/>
+    </g>
+    <path d="M360 209q13-23 26 0q13-23 26 0l-4 15h-44z" fill="#345a4c"/>
+    <path d="M599 75l55 76m-55 76 55-76" fill="none" stroke="#55967a" stroke-width="6" stroke-linecap="round"/>
+    <path d="M654 151h98" stroke="#55967a" stroke-width="6" stroke-linecap="round"/>
+    <circle cx="794" cy="151" r="28" fill="#fff1d6" stroke="#ca8b32" stroke-width="4"/>
+    <text x="794" y="157" text-anchor="middle" font-size="14" font-weight="700">DETECT</text>
+    <text x="219" y="48" font-size="16" font-weight="700">HOME PATH</text>
+    <text x="219" y="270" font-size="16" font-weight="700">CELL PATH · PERFECT ABSORBER</text>
+    <text x="86" y="205" text-anchor="middle" font-size="14" fill="#5b7469">single photon</text>
+    <text x="794" y="205" text-anchor="middle" font-size="14" fill="#5b7469">home or far</text>
+  </g>
+</svg>
